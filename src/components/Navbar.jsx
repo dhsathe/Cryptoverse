@@ -11,6 +11,28 @@ import {
 import icon from "../images/cryptocurrency.png";
 
 const Navbar = () => {
+  const items = [
+    {
+      label: <Link to="/">Home</Link>,
+      icon: <HomeOutlined />,
+      key: "home",
+    },
+    {
+      label: <Link to="/cryptocurrencies">Cryptocurrencies </Link>,
+      icon: <FundOutlined />,
+      key: "Cryptocurrencies",
+    },
+    {
+      label: <Link to="/exchanges">Exchanges</Link>,
+      icon: <HomeOutlined />,
+      key: "Exchanges",
+    },
+    {
+      label: <Link to="/news">News</Link>,
+      icon: <HomeOutlined />,
+      key: "News",
+    },
+  ];
   return (
     <div className="nav-container">
       <div className="logo-container">
@@ -25,20 +47,10 @@ const Navbar = () => {
         </Typography.Title>
       </div>
 
-      <Menu theme="dark">
-        <Menu.Item icon={<HomeOutlined />}>
-          <Link to="/">Home</Link>
-        </Menu.Item>
-        <Menu.Item icon={<FundOutlined />}>
-          <Link to="/cryptocurrencies">Cryptocurrencies </Link>
-        </Menu.Item>
-        <Menu.Item icon={<HomeOutlined />}>
-          <Link to="/exchanges">Exchanges</Link>
-        </Menu.Item>
-        <Menu.Item icon={<HomeOutlined />}>
-          <Link to="/news">News</Link>
-        </Menu.Item>
-      </Menu>
+      <Menu
+        theme="dark"
+        items={items}
+      />
     </div>
   );
 };
