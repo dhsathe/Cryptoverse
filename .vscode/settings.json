@@ -1,0 +1,23 @@
+{
+  "prettier.bracketSameLine": true,
+  "prettier.enableDebugLogs": false,
+  "prettier.experimentalTernaries": false,
+  "javascript.experimental.updateImportsOnPaste": true,
+  "prettier.bracketSpacing": true,
+  "prettier.semi": true,
+  "prettier.useEditorConfig": true,
+  "javascript.format.enable": true,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": true,
+  "javascript.format.insertSpaceAfterKeywordsInControlFlowStatements": true,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+  "javascript.format.insertSpaceAfterConstructor": true,
+  "javascript.format.insertSpaceAfterCommaDelimiter": true,
+  "javascript.autoClosingTags": true,
+  "prettier.singleAttributePerLine": true,
+  "prettier.resolveGlobalModules": false,
+  "prettier.requirePragma": false,
+  "prettier.requireConfig": false,
+  "prettier.enable": true
+}
